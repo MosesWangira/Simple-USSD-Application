@@ -18,7 +18,7 @@ $text = $_POST["text"];
 
 //conditions classifying user to determine type of feedback
 
-if(text == ""){
+if($text == ""){
   //1st request .. Start response with CON
   $response = "CON What would you want to check \n";
   $response .= "1. My Account NO \n";
